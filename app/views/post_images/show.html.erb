@@ -33,6 +33,7 @@
  <% if post_comment.user == current_user %>
  <div class="comment-delete">
    <%= link_to "削除", post_image_post_coment_path(post_comment.post_image, post_comment), method: :delete %>
+
  </div>
  <% end %>
  <% end %>
@@ -41,5 +42,6 @@
  <%= f.text_area :comment, rows:'5',placeholder: "コメントをここに" %>
   <%= f.submit "送信する" %>
 <% end %>
+
 </div>
 
