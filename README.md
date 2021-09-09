@@ -1,24 +1,45 @@
-# README
+#**Handmader**#
+##へようこそ～！##
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+:::note
+`サイト概要`
+*Handmader*は、自作ハンドメイド作品の投稿及び他クリエーターとの交流・共同制作などの申し出もDMにて可能なサイトです。
+:::
 
-Things you may want to cover:
+### サイトテーマ
+思いを込めて作った作品だからこそ、同じく思いを込めて作るクリエーターと熱く交流できるコミュニティーを提供したい。
+作品の意見交換を重ねられるサイトだからこそ、ワンランク上のクリエーターへと成長できる環境を提供できる。
 
-* Ruby version
+### テーマを選んだ理由
+ハンドメイドは孤独な環境です。外出自粛が余技され人と人とのコミュニケーションが取りづらい世の中でサイトを介し
+他のクリエーターと話題を共有できる場所があればと考えていました。
+潜在していた他クリエーターの作品とその作品に対する思いを知ることで日々インスピレーションを受け、作品の質を高めてくれます。
+はたまた制作パートナーの発掘といったことが自由にできる環境があればよりハンドメイドを楽しめるのではないかと考え選定致しました。
 
-* System dependencies
+### ターゲットユーザ
+フリマアプリ（メルカリ・BASE等）の販売ツールを利用しているクリエーター
+SNSにて作品の投稿をしている一般・個人・法人
 
-* Configuration
+### 主な利用シーン
+自作ハンドメイド作品の投稿・クリエーターからの意見交換、フォロー機能の活用
+メッセージ機能により非公開でクリエーターどうしのやり取りや共同制作の申し出といったことができる。
 
-* Database creation
+## 今後の開発予定
+ユーザー数が増えることで、共同制作募集掲示板の作成や各作品ジャンルごとにイベントの発足であったり、各イベント結果を元に企業へ提案しコラボ作品を展開するといった方向で考えております。
+## 設計書
+`Handmader(ER図)`
+https://app.diagrams.net/#G1_TxjqnmSENB_rVikRh5WsgU-p1OxczYv
 
-* Database initialization
+## チャレンジ要素一覧
+https://docs.google.com/spreadsheets/d/16emgVcBFCdUZ8CrqATC3B-KBYkZZlcT1rFOV6XCkUxQ/edit#gid=566224576
 
-* How to run the test suite
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
+- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名とURLを明記してください。
+- 使用しない場合は、使用素材の項目をREADMEから削除してください。
